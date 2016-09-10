@@ -1,0 +1,286 @@
+body{
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #9d4444;
+}
+
+/** Header **/
+#header-nav{
+	background-color: rgba(90, 173, 119, 0.59);
+	border-radius: 0;
+	border: 0;
+	color: #e6410d;
+}
+
+#logo-img{
+	background: url('http://img2.imgtn.bdimg.com/it/u=433781657,3560436603&fm=206&gp=0.jpg') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 0;
+	color: #d46f6f;
+}
+#image{
+	size: 0.2em;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h2{  /*Restaurant name */
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #f498a5;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #111;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p span{
+	color: #d97d7d;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	margin-top: 5px;	
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+#phone{
+	margin-top: 2px; 
+					  /*这个不知道指啥*/	
+}
+#phone a{   /*phone number*/
+	text-align: right;
+	padding-right: 15px;
+	background-size: 0.23em;
+}
+#nav-list div{ /*We deliver*/
+	color: red;
+	font-weight: bold;
+	text-align: right;
+	font-family: Century Gothic;
+	padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .icon-bar{
+	border: 1px solid maroon;
+	clear: both;
+}
+.navbar-header button.navbar-toggle{
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+#menu-tile, #special-tile, #map-tile{
+	height: 250px;
+	width: 100%; 
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #246c1e;
+	overflow: hidden;  
+}
+#menu-tile span, #special-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	background-color: gray;
+	opacity: 0.5;
+	text-shadow: 0px 0px 10px red;
+	color: white;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px gray;
+}
+#menu-tile{
+	background-image: url(menu-tile.jpg);
+	background-position: center;
+}
+#special-tile{
+	background-image: url(special-tile.jpg);
+	background-position: center;	
+}
+
+/*End of Header*/
+
+
+/*Home page*/
+#introduction{
+	background-image: url(companypic.jpg);
+	background-repeat: repeat-x repeat-y;	
+	border: 3px solid white;
+	padding: 40px;
+}
+#aboutus{
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #FAEBD7;
+	font-weight: bold;
+    text-shadow: 0px 1px 3px;
+}
+.container{
+	margin-top: 40px;
+}
+#blog-content-subtitle .whoweare{
+	margin: auto;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #FAEBD7;
+	text-shadow: 0 0 1px #a17e7e;
+	 text-shadow: 0px 1px 3px;
+}
+#blog-content-subtitle span{
+	color: #FAEBD7;
+	line-height: 20px;
+}
+.basic-intro span{
+	font-size: 1.3em;
+}
+.foodpic{
+	width: 200px;
+	height: 150px;
+	margin: 0 auto 15px;
+}
+.category-tile {
+	position: relative;
+	border: 1px solid #d5bebe;
+	overflow: hidden;
+	width: 200px;
+	height: 115px;
+	margin: 0 auto 15px;	
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	color: #da9d9d;
+	text-transform: uppercase;
+	background-color: #f4f9db;
+	font-weight: bold;
+	opacity: 0.9;
+}
+.category-tile:hover{
+	box-shadow: 3px 3px 5px #444;
+}
+
+#menu-categories + div{
+	margin-bottom: 50px;
+}
+/* Footer*/
+#hours span, #address span{
+	font-family: "Century Gothic";
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#address p{
+	color: #bb950b;
+	font-size: 0.85em;
+	line-height: 1.75;
+}
+.panel-footer{
+	margin-top: 30px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	border-top: 0;
+}
+.panel-footer .row{
+	margin-bottom: 35px;
+}
+#hours, #address{
+	line-height: 1.5;
+}
+#testimonals{
+	font-style: italic;
+}
+@media (min-width:1200px){
+	.container .jumbotron{
+		background: url('container-pic.jpg');
+		height: 580px;
+		box-shadow: 0px 3px 50px #444;	
+		}
+}
+@media (max-width:500px){
+	.col-xxs-12{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width: 100%;
+	}  	
+}
+
+@media (max-width:991px){
+	.container.jumbotron{
+		background: url('container-pic.jpg') no-repeat;
+			height: 675px;
+			box-shadow: 0px 3px 50px #3F0C1F;
+	}
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h2{
+		padding-top: 10px;
+		font-size: 3vw; /*1vw = 1% of viewport width */	
+	}
+	.navbar-brand p{
+		text-transform: uppercase;
+		margin-top: 12px;
+	}
+	.navbar-brand p{
+		height: 20px;
+	}
+	.container .jumbotron{
+		padding: 0;
+		box-shadow: 0px 0px 50px #444;
+		margin-top: 10px;
+		margin-right:0;
+	}
+	#menu-tile, #special-tile{
+		width: 360px;
+	}
+	.panel-footer section{
+	text-align: center;
+	margin-bottom: 30px;
+	}
+	.panel-footer section:nth-child(3){
+		margin-bottom: 0;
+	}
+	.panel-footer section hr{
+		width: 80%;
+	}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	#logo-img{
+		background: url('http://img2.imgtn.bdimg.com/it/u=433781657,3560436603&fm=206&gp=0.jpg') no-repeat
+		width: 50px;
+		height: 50px;
+		margin: 5px 5px 5px 0;
+	}
+	
+	/*Home page*/
+	.container .jumbotron{
+		background: url('container-pic.jpg');
+		height: 570px;
+		width: 1400px;
+		box-shadow: 0px 3px 50px #444;	
+		}	
+	}/*End of Home Page*/
